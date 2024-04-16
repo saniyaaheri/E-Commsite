@@ -1,0 +1,41 @@
+
+.item{
+    height: 380px;
+    background-color: gray;
+    width: 320px;
+    margin:10px 25px;
+    overflow: hidden;
+    transition:0.5s all;
+}
+.Womenicons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    margin-left: 25px;
+    margin-top: 20px;
+    transition:0.5s all;
+}
+
+.Womenicons ol li{
+   
+    display: inline-block;
+    margin: 10px 10px;
+    list-style: none;
+    font-size: 25px;
+    background-color: rgb(225, 225, 225);
+    padding: 10px 15px;
+    text-align: center;
+    cursor: pointer;
+    transition:0.6s ease-in-out;
+    
+}
+.item:hover .Womenicons ol li{
+    background-color: black;
+    color: white;
+display:inline-block;  
+  border-radius: 10px;
+
+}

@@ -1,0 +1,47 @@
+.footer{
+    background-color: black;
+    /* position: fixed;
+    bottom: 0; */
+    width: 100%;
+    padding-top: 20px;
+}
+.flink ol a
+{
+    text-decoration: none;
+   padding: 20px 15px 20px 15px;
+    color: white;
+    margin-top: 10px;
+    line-height: 38px;
+    
+}
+.col-3 h6
+{
+    font-size: 20px;
+    color: white;
+    padding: 10px 10px;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.footercopyright{
+    border-top: 1px solid gray;
+    width:85%;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+.icons ol li{
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.icons:hover{
+    color: rgb(72, 40, 40);
+}

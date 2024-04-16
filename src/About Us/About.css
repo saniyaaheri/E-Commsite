@@ -1,0 +1,73 @@
+.Abth1{
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    }
+    .Abth1 p
+    {
+        color:grey;
+    }
+    .Abth1 .p1
+    {
+        color:white;
+    }
+    /* .p1{
+        color: white;
+        font-size: 15px;
+        font-style: italic;
+        padding-top: 30px; 
+    }
+    .p2{
+        color: rgb(15, 13, 13);
+        font-size: 15px;
+       font-weight: bold;
+       padding-top: 30px;
+    }
+    .p3{
+        color: gray;
+        font-size: 15px;
+        font-style: italic;
+        padding-top: 30px;
+       
+    }
+    .p4{
+        color: gray;
+        font-size: 15px;
+        font-style: italic;
+        padding-top: 30px;
+       
+    } */
+    .Abt
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .Abt-heading{
+        color:white;
+        font-size: 50px;
+        text-align: center;
+        font-weight: bold;
+        text-align: center;
+    
+        }
+        .Abt-para{
+            color:white;
+            font-size: 20px;
+            text-align: center;
+            font-style: italic;
+        }
+        .Abt-button{
+            padding: 10px 10px;
+            border:2px solid white;
+            background-color: transparent;
+            color: white;
+            width: 200px;
+            transition:all 0.5s;
+        }
+        
+        .Abt-button:hover{
+            background-color: white;
+            color: black;
+        }

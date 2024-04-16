@@ -1,0 +1,80 @@
+
+.heading{
+color:white;
+font-size: 50px;
+text-align: center;
+font-weight: bold;
+}
+.bannerpara{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    padding-top: 20px;
+}
+.banner-button{
+    padding: 10px 10px;
+    border:2px solid white;
+    background-color: transparent;
+    color: white;
+    width: 200px;
+    margin-left: 16%;
+    transition:all 0.5s;
+}
+
+.banner-button:hover{
+    background-color: white;
+    color: black;
+}
+
+/* catagory section */
+.catagory{
+    height: 240px;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:all 0.8s;
+
+}
+.containt_catagory{
+    height: 90%;
+    width: 90%;
+    position:absolute;
+    background-color:rgba(0,0, 0, 0.5);
+    display: none;
+    transition:all 0.8s;
+}
+.catagory:hover .containt_catagory{
+display: block;
+cursor: pointer;
+}
+
+.mensheading{
+    text-align: center;
+    color: white;
+}
+.mensheading h2{
+    font-weight: bold;
+}
+
+.containt_catagory{
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.containt_catagory button{
+    padding: 5px 10px;
+    border:1px solid white;
+    background-color: transparent;
+    color: white;
+    transition:all 0.5s;
+}
+.containt_catagory button:hover{
+    background-color: white;
+    color: black;
+}
+

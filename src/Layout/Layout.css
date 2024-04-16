@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Navbar{
+    background-color:#E7E0DF  ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px dotted #A39F9E ;
+    box-shadow:0px 5px 12px #7C7674 ;
+}
+.Navbar ul li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+.Navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    
+}
