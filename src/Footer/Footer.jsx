@@ -19,7 +19,7 @@ const Footer = () => {
                                 <div className="flink">
                                     <ol>
                                         <li>
-                                            <a href="/">jghgsdhjsdhjgae</a>
+                                            <a href="/">vijaypur</a>
                                         </li>
                                         <li>
                                             <a href="/">saniyabijapur@gmail.com</a>

@@ -45,7 +45,7 @@ const Home = () => {
       <div className="container-fluid">
         <div className="row pt-5 m-2">
           {/* Main Banner */}
-          <div className="col-6">
+          <div className="col-md-6">
             <div className="banner" style={menu}>
               <h1 className='heading'>We Are Hexashop</h1>
               <p className='bannerpara'>Awesome, clean & creative HTML5 Template</p>
@@ -55,7 +55,7 @@ const Home = () => {
           {/* Main Banner End*/}
 
           {/* catagory */}
-          <div className="col-3">
+          <div className="col-md-3">
             <div className="catagory men" style={men}>
               <div className="mensheading">
                 <h2>Men</h2>
@@ -83,7 +83,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="col-3">
+          <div className="col-md-3">
             <div className="catagory" style={kids}>
             <div className="mensheading">
                 <h2>kid's</h2>

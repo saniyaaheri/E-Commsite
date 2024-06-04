@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-.Navbar{
+.navbar{
     background-color:#E7E0DF  ;
     display: flex;
     align-items: center;
@@ -21,4 +21,20 @@
     font-size: 20px;
     color: black;
     
+}
+
+.navbar-nav .nav-item .nav-link
+{
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    transition: 0.3s;
+}
+.navbar-nav .nav-item .nav-link:hover
+{
+    color: blue;
+}
+.navbar-nav .nav-item  .active
+{
+    color:green;
 }

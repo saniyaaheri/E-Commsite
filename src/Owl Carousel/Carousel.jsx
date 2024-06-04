@@ -12,6 +12,7 @@ import exp3 from '../Images/men-03.jpg'
 import '@fortawesome/fontawesome-free/css/all.css';
 
 const Carousel = () => {
+    
     let men1 = {
         // height: "100%",
         width: "100%",
@@ -72,7 +73,7 @@ const Carousel = () => {
             items={3}
             center={true}
             >
-                <div class='item c1' style={men1}>
+                <div class='item c1 col-md-3' style={men1}>
                     <div className="menicons">
                         <ol>
                             <li><FaRegEye /></li>
@@ -81,7 +82,7 @@ const Carousel = () => {
                         </ol>
                     </div>
                 </div>
-                <div class='item c2' style={men2}>
+                <div class='item c2 col-md-3' style={men2}>
                 <div className="menicons">
                         <ol>
                             <li><FaRegEye /></li>
@@ -90,7 +91,7 @@ const Carousel = () => {
                         </ol>
                     </div>
                 </div>
-                <div class='item c3' style={men3}>
+                <div class='item c3 col-md-3' style={men3}>
                 <div className="menicons">
                         <ol>
                             <li><FaRegEye /></li>
